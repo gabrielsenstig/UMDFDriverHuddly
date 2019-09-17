@@ -1,0 +1,109 @@
+﻿  Building 'USB UMDF 2 Driver2' with toolset 'WindowsUserModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Debug\USBUMDF2Driver2.inf
+  Stamping [Version] section with DriverVer=09/10/2019,22.30.15.85
+  Device.c
+  Driver.c
+  Queue.c
+  Generating Code...
+     Creating library C:\Users\stig_\source\repos\USB UMDF 2 Driver2\x64\Debug\USBUMDF2Driver2.lib and object C:\Users\stig_\source\repos\USB UMDF 2 Driver2\x64\Debug\USBUMDF2Driver2.exp
+  USB UMDF 2 Driver2.vcxproj -> C:\Users\stig_\source\repos\USB UMDF 2 Driver2\x64\Debug\USBUMDF2Driver2.dll
+  
+  The following certificates were considered:
+      Issued to: 11081f639facd5a6
+  
+      Issued by: Token Signing Public Key
+  
+      Expires:   Sat Sep 29 17:04:56 2018
+  
+      SHA1 hash: C5AD05D4FF89CAFE8233FCD50043CFD05A384164
+  
+  
+      Issued to: WDKTestCert stig_,132106225807375559
+  
+      Issued by: WDKTestCert stig_,132106225807375559
+  
+      Expires:   Sat Aug 18 02:00:00 2029
+  
+      SHA1 hash: 5CB0908B5B81BBEF0784EF049FC04375E3CA00B9
+  
+  
+  After EKU filter, 1 certs were left.
+  After expiry filter, 1 certs were left.
+  After Hash filter, 1 certs were left.
+  After Private Key filter, 1 certs were left.
+  The following certificate was selected:
+      Issued to: WDKTestCert stig_,132106225807375559
+  
+      Issued by: WDKTestCert stig_,132106225807375559
+  
+      Expires:   Sat Aug 18 02:00:00 2029
+  
+      SHA1 hash: 5CB0908B5B81BBEF0784EF049FC04375E3CA00B9
+  
+  
+  Done Adding Additional Store
+  Successfully signed: C:\Users\stig_\source\repos\USB UMDF 2 Driver2\x64\Debug\USBUMDF2Driver2.dll
+  
+  
+  Number of files successfully Signed: 1
+  
+  Number of warnings: 0
+  
+  Number of errors: 0
+  
+  Driver is a Universal Driver.
+  ........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Users\stig_\source\repos\USB UMDF 2 Driver2\x64\Debug\USB UMDF 2 Driver2\usbumdf2driver2.cat
+  
+  The following certificates were considered:
+      Issued to: 11081f639facd5a6
+  
+      Issued by: Token Signing Public Key
+  
+      Expires:   Sat Sep 29 17:04:56 2018
+  
+      SHA1 hash: C5AD05D4FF89CAFE8233FCD50043CFD05A384164
+  
+  
+      Issued to: WDKTestCert stig_,132106225807375559
+  
+      Issued by: WDKTestCert stig_,132106225807375559
+  
+      Expires:   Sat Aug 18 02:00:00 2029
+  
+      SHA1 hash: 5CB0908B5B81BBEF0784EF049FC04375E3CA00B9
+  
+  
+  After EKU filter, 1 certs were left.
+  After expiry filter, 1 certs were left.
+  After Hash filter, 1 certs were left.
+  After Private Key filter, 1 certs were left.
+  The following certificate was selected:
+      Issued to: WDKTestCert stig_,132106225807375559
+  
+      Issued by: WDKTestCert stig_,132106225807375559
+  
+      Expires:   Sat Aug 18 02:00:00 2029
+  
+      SHA1 hash: 5CB0908B5B81BBEF0784EF049FC04375E3CA00B9
+  
+  
+  Done Adding Additional Store
+  Successfully signed: C:\Users\stig_\source\repos\USB UMDF 2 Driver2\x64\Debug\USB UMDF 2 Driver2\usbumdf2driver2.cat
+  
+  
+  Number of files successfully Signed: 1
+  
+  Number of warnings: 0
+  
+  Number of errors: 0
+  
