@@ -1,4 +1,4 @@
-// 66815cf0acc2fda5cd89ed9312e25fb3 Generated file. Do not edit.
+// c937b1bc80b6378f18928c6a92e9b837 Generated file. Do not edit.
 // File created by WPP compiler version 10.0.18362
 // from template um-default.tpl
 
@@ -12,7 +12,7 @@
 #       undef   WPP_THIS_FILE
 #endif  // #ifdef WPP_THIS_FILE
 
-#define WPP_THIS_FILE Queue_c
+#define WPP_THIS_FILE Queue_cpp
 
 #ifndef WPP_ALREADY_INCLUDED
 
@@ -474,13 +474,106 @@ extern "C" {
 #else // WPP_NO_ANNOTATIONS
 
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Queue_c71
+#define WPP_PUBLIC_ANNOT_Queue_cpp78
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Queue_c111
+#define WPP_PUBLIC_ANNOT_Queue_cpp97
 #endif
 #ifdef WPP_PUBLIC_
-#define WPP_PUBLIC_ANNOT_Queue_c150
+#define WPP_PUBLIC_ANNOT_Queue_cpp109
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp128
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp140
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp151
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp160
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp198
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp237
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp288
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp293
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp307
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp320
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp344
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp359
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp386
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp391
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp402
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp423
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp429
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp445
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp451
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp458
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp463
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp478
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp489
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp493
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp515
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp525
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp527
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp531
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp533
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp537
+#endif
+#ifdef WPP_PUBLIC_
+#define WPP_PUBLIC_ANNOT_Queue_cpp549
 #endif
 #ifdef WPP_EMIT_FUNC_NAME
 #define WPP_FUNC_NAME L" FUNC=" _WPPW(__FUNCTION__)
@@ -489,7 +582,7 @@ extern "C" {
 #endif // WPP_EMIT_FUNC_NAME
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Queue_c71_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Queue_cpp78_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
     L" MJ= MN=", \
@@ -498,9 +591,9 @@ extern "C" {
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Queue_c71_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Queue_cpp78_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"66cf0443-fe09-333d-f837-a53466f6f0bf USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
     L" 10 \"%0WdfIoQueueCreate failed %10!s!\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_QUEUE" \
@@ -508,8 +601,8 @@ extern "C" {
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Queue_c71
-# define WPP_ANNOTATE_Queue_c71 WPP_ANNOTATE_Queue_c71_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp78
+# define WPP_ANNOTATE_Queue_cpp78 WPP_ANNOTATE_Queue_cpp78_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -520,38 +613,290 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Queue_c71
-# define WPP_ANNOTATE_Queue_c71 WPP_ANNOTATE_Queue_c71_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Queue_cpp78
+# define WPP_ANNOTATE_Queue_cpp78 WPP_ANNOTATE_Queue_cpp78_FINAL( \
     "TMF:", \
-    "Queue.c", \
-    "Queue_c71", \
+    "Queue.cpp", \
+    "Queue_cpp78", \
     L"{", \
     L"status, ItemNTSTATUS -- 10" , \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Queue_c71
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp78
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Queue_c111_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Queue_cpp97_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
-    L" 11 \"%0%!FUNC! Queue 0x%10!p!, Request 0x%11!p! OutputBufferLength %12!d! InputBufferLength %13!d! IoControlCode %14!d!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    L" 11 \"%0WdfIoQueueCreate failed 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Queue_c111_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Queue_cpp97_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"66cf0443-fe09-333d-f837-a53466f6f0bf USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
-    L" 11 \"%0%!FUNC! Queue 0x%10!p!, Request 0x%11!p! OutputBufferLength %12!d! InputBufferLength %13!d! IoControlCode %14!d!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    L" 11 \"%0WdfIoQueueCreate failed 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Queue_c111
-# define WPP_ANNOTATE_Queue_c111 WPP_ANNOTATE_Queue_c111_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp97
+# define WPP_ANNOTATE_Queue_cpp97 WPP_ANNOTATE_Queue_cpp97_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"Arg, ItemLong -- 10" , \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp97
+# define WPP_ANNOTATE_Queue_cpp97 WPP_ANNOTATE_Queue_cpp97_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp97", \
+    L"{", \
+    L"status, ItemLong -- 10" , \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp97
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp109_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 12 \"%0WdfDeviceConfigureRequestDispatching failed 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp109_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 12 \"%0WdfDeviceConfigureRequestDispatching failed 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp109
+# define WPP_ANNOTATE_Queue_cpp109 WPP_ANNOTATE_Queue_cpp109_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"Arg, ItemLong -- 10" , \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp109
+# define WPP_ANNOTATE_Queue_cpp109 WPP_ANNOTATE_Queue_cpp109_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp109", \
+    L"{", \
+    L"status, ItemLong -- 10" , \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp109
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp128_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 13 \"%0WdfIoQueueCreate failed 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp128_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 13 \"%0WdfIoQueueCreate failed 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp128
+# define WPP_ANNOTATE_Queue_cpp128 WPP_ANNOTATE_Queue_cpp128_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"Arg, ItemLong -- 10" , \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp128
+# define WPP_ANNOTATE_Queue_cpp128 WPP_ANNOTATE_Queue_cpp128_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp128", \
+    L"{", \
+    L"status, ItemLong -- 10" , \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp128
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp140_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 14 \"%0WdfDeviceConfigureRequestDispatching failed 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp140_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 14 \"%0WdfDeviceConfigureRequestDispatching failed 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp140
+# define WPP_ANNOTATE_Queue_cpp140 WPP_ANNOTATE_Queue_cpp140_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"Arg, ItemLong -- 10" , \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp140
+# define WPP_ANNOTATE_Queue_cpp140 WPP_ANNOTATE_Queue_cpp140_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp140", \
+    L"{", \
+    L"status, ItemLong -- 10" , \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp140
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp151_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 15 \"%0QUEUE CONFIGURED 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp151_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 15 \"%0QUEUE CONFIGURED 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp151
+# define WPP_ANNOTATE_Queue_cpp151 WPP_ANNOTATE_Queue_cpp151_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"Arg, ItemLong -- 10" , \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp151
+# define WPP_ANNOTATE_Queue_cpp151 WPP_ANNOTATE_Queue_cpp151_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp151", \
+    L"{", \
+    L"status, ItemLong -- 10" , \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp151
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp160_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 16 \"%0QUEUE ERROR %10!s!\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp160_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 16 \"%0QUEUE ERROR %10!s!\" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp160
+# define WPP_ANNOTATE_Queue_cpp160 WPP_ANNOTATE_Queue_cpp160_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"Arg, ItemNTSTATUS -- 10" , \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp160
+# define WPP_ANNOTATE_Queue_cpp160 WPP_ANNOTATE_Queue_cpp160_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp160", \
+    L"{", \
+    L"status, ItemNTSTATUS -- 10" , \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp160
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp198_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 17 \"%0%!FUNC! Queue 0x%10!p!, Request 0x%11!p! OutputBufferLength %12!d! InputBufferLength %13!d! IoControlCode %14!d!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp198_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 17 \"%0%!FUNC! Queue 0x%10!p!, Request 0x%11!p! OutputBufferLength %12!d! InputBufferLength %13!d! IoControlCode %14!d!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp198
+# define WPP_ANNOTATE_Queue_cpp198 WPP_ANNOTATE_Queue_cpp198_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -566,11 +911,11 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Queue_c111
-# define WPP_ANNOTATE_Queue_c111 WPP_ANNOTATE_Queue_c111_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Queue_cpp198
+# define WPP_ANNOTATE_Queue_cpp198 WPP_ANNOTATE_Queue_cpp198_FINAL( \
     "TMF:", \
-    "Queue.c", \
-    "Queue_c111", \
+    "Queue.cpp", \
+    "Queue_cpp198", \
     L"{", \
     L"Queue, ItemPtr -- 10" , \
     L"Request, ItemPtr -- 11" , \
@@ -578,30 +923,30 @@ extern "C" {
     L"(int) InputBufferLength, ItemLong -- 13" , \
     L"IoControlCode, ItemLong -- 14" , \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Queue_c111
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp198
 
 #ifdef WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Queue_c150_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Queue_cpp237_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
     WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
-    L" 12 \"%0%!FUNC! Queue 0x%10!p!, Request 0x%11!p! ActionFlags %12!d!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    L" 18 \"%0%!FUNC! Queue 0x%10!p!, Request 0x%11!p! ActionFlags %12!d!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #else // WPP_USER_MSG_GUID
-# define WPP_ANNOTATE_Queue_c150_FINAL(P, File, Name, ...) __annotation( \
+# define WPP_ANNOTATE_Queue_cpp237_FINAL(P, File, Name, ...) __annotation( \
     L ## P, \
-    L"66cf0443-fe09-333d-f837-a53466f6f0bf USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
     L" MJ= MN=", \
     L"#typev " _WPPW(Name) \
-    L" 12 \"%0%!FUNC! Queue 0x%10!p!, Request 0x%11!p! ActionFlags %12!d!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    L" 18 \"%0%!FUNC! Queue 0x%10!p!, Request 0x%11!p! ActionFlags %12!d!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
     WPP_FUNC_NAME, \
     __VA_ARGS__)
 #endif // WPP_USER_MSG_GUID
 
-#ifdef WPP_PUBLIC_ANNOT_Queue_c150
-# define WPP_ANNOTATE_Queue_c150 WPP_ANNOTATE_Queue_c150_FINAL( \
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp237
+# define WPP_ANNOTATE_Queue_cpp237 WPP_ANNOTATE_Queue_cpp237_FINAL( \
     "TMF:", \
     "Unknown_cxx00", \
     "Unknown_cxx00", \
@@ -614,17 +959,1047 @@ extern "C" {
 # ifndef WPP_PUBLIC_TMC
 #  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
 # endif
-#else // WPP_PUBLIC_ANNOT_Queue_c150
-# define WPP_ANNOTATE_Queue_c150 WPP_ANNOTATE_Queue_c150_FINAL( \
+#else // WPP_PUBLIC_ANNOT_Queue_cpp237
+# define WPP_ANNOTATE_Queue_cpp237 WPP_ANNOTATE_Queue_cpp237_FINAL( \
     "TMF:", \
-    "Queue.c", \
-    "Queue_c150", \
+    "Queue.cpp", \
+    "Queue_cpp237", \
     L"{", \
     L"Queue, ItemPtr -- 10" , \
     L"Request, ItemPtr -- 11" , \
     L"ActionFlags, ItemLong -- 12" , \
     L"}")
-#endif // WPP_PUBLIC_ANNOT_Queue_c150
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp237
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp288_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 19 \"%0USBUMDF2Driver2EvtIoWrite received a lenght %10!d! argument\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp288_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 19 \"%0USBUMDF2Driver2EvtIoWrite received a lenght %10!d! argument\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp288
+# define WPP_ANNOTATE_Queue_cpp288 WPP_ANNOTATE_Queue_cpp288_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"Arg, ItemLong -- 10" , \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp288
+# define WPP_ANNOTATE_Queue_cpp288 WPP_ANNOTATE_Queue_cpp288_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp288", \
+    L"{", \
+    L"(int) Length, ItemLong -- 10" , \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp288
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp293_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 20 \"%0Transfer exceeds %10!d!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp293_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 20 \"%0Transfer exceeds %10!d!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp293
+# define WPP_ANNOTATE_Queue_cpp293 WPP_ANNOTATE_Queue_cpp293_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"Arg, ItemLong -- 10" , \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp293
+# define WPP_ANNOTATE_Queue_cpp293 WPP_ANNOTATE_Queue_cpp293_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp293", \
+    L"{", \
+    L"TEST_BOARD_TRANSFER_BUFFER_SIZE, ItemLong -- 10" , \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp293
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp307_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 21 \"%0WdfMemoryCopyFromBuffer failed \" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp307_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 21 \"%0WdfMemoryCopyFromBuffer failed \" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp307
+# define WPP_ANNOTATE_Queue_cpp307 WPP_ANNOTATE_Queue_cpp307_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp307
+# define WPP_ANNOTATE_Queue_cpp307 WPP_ANNOTATE_Queue_cpp307_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp307", \
+    L"{", \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp307
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp320_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 22 \"%0WdfUsbTargetPipeFormatRequestForWrite failed 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp320_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 22 \"%0WdfUsbTargetPipeFormatRequestForWrite failed 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp320
+# define WPP_ANNOTATE_Queue_cpp320 WPP_ANNOTATE_Queue_cpp320_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"Arg, ItemLong -- 10" , \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp320
+# define WPP_ANNOTATE_Queue_cpp320 WPP_ANNOTATE_Queue_cpp320_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp320", \
+    L"{", \
+    L"status, ItemLong -- 10" , \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp320
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp344_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 23 \"%0WdfRequestSend failed\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp344_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 23 \"%0WdfRequestSend failed\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp344
+# define WPP_ANNOTATE_Queue_cpp344 WPP_ANNOTATE_Queue_cpp344_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp344
+# define WPP_ANNOTATE_Queue_cpp344 WPP_ANNOTATE_Queue_cpp344_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp344", \
+    L"{", \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp344
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp359_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 24 \"%0USBUMDF2Driver2EvtIoWrite\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp359_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 24 \"%0USBUMDF2Driver2EvtIoWrite\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp359
+# define WPP_ANNOTATE_Queue_cpp359 WPP_ANNOTATE_Queue_cpp359_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp359
+# define WPP_ANNOTATE_Queue_cpp359 WPP_ANNOTATE_Queue_cpp359_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp359", \
+    L"{", \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp359
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp386_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 25 \"%0Number of bytes written: %10!I64d!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp386_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 25 \"%0Number of bytes written: %10!I64d!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp386
+# define WPP_ANNOTATE_Queue_cpp386 WPP_ANNOTATE_Queue_cpp386_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"Arg, ItemLongLong -- 10" , \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp386
+# define WPP_ANNOTATE_Queue_cpp386 WPP_ANNOTATE_Queue_cpp386_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp386", \
+    L"{", \
+    L"(INT64)bytesWritten, ItemLongLong -- 10" , \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp386
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp391_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 26 \"%0Write failed: request Status 0x%10!x! UsbdStatus 0x%11!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp391_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 26 \"%0Write failed: request Status 0x%10!x! UsbdStatus 0x%11!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp391
+# define WPP_ANNOTATE_Queue_cpp391 WPP_ANNOTATE_Queue_cpp391_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"Arg, ItemLong -- 10" , \
+    L"Arg, ItemLong -- 11" , \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp391
+# define WPP_ANNOTATE_Queue_cpp391 WPP_ANNOTATE_Queue_cpp391_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp391", \
+    L"{", \
+    L"status, ItemLong -- 10" , \
+    L"usbCompletionParams->UsbdStatus, ItemLong -- 11" , \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp391
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp402_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 27 \"%0WRITE COMPLETED\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp402_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 27 \"%0WRITE COMPLETED\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp402
+# define WPP_ANNOTATE_Queue_cpp402 WPP_ANNOTATE_Queue_cpp402_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp402
+# define WPP_ANNOTATE_Queue_cpp402 WPP_ANNOTATE_Queue_cpp402_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp402", \
+    L"{", \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp402
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp423_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 28 \"%0-->USBUMDF2Driver2EvtIoRead\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp423_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 28 \"%0-->USBUMDF2Driver2EvtIoRead\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp423
+# define WPP_ANNOTATE_Queue_cpp423 WPP_ANNOTATE_Queue_cpp423_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp423
+# define WPP_ANNOTATE_Queue_cpp423 WPP_ANNOTATE_Queue_cpp423_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp423", \
+    L"{", \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp423
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp429_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 29 \"%0Transfer exceeds %10!d!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp429_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 29 \"%0Transfer exceeds %10!d!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp429
+# define WPP_ANNOTATE_Queue_cpp429 WPP_ANNOTATE_Queue_cpp429_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"Arg, ItemLong -- 10" , \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp429
+# define WPP_ANNOTATE_Queue_cpp429 WPP_ANNOTATE_Queue_cpp429_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp429", \
+    L"{", \
+    L"TEST_BOARD_TRANSFER_BUFFER_SIZE, ItemLong -- 10" , \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp429
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp445_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 30 \"%0WdfRequestRetrieveOutputMemory failed %10!s!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp445_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 30 \"%0WdfRequestRetrieveOutputMemory failed %10!s!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp445
+# define WPP_ANNOTATE_Queue_cpp445 WPP_ANNOTATE_Queue_cpp445_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"Arg, ItemNTSTATUS -- 10" , \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp445
+# define WPP_ANNOTATE_Queue_cpp445 WPP_ANNOTATE_Queue_cpp445_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp445", \
+    L"{", \
+    L"status, ItemNTSTATUS -- 10" , \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp445
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp451_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 31 \"%0WdfRequestRetrieveOutputMemory passed 0x %10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp451_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 31 \"%0WdfRequestRetrieveOutputMemory passed 0x %10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp451
+# define WPP_ANNOTATE_Queue_cpp451 WPP_ANNOTATE_Queue_cpp451_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"Arg, ItemLong -- 10" , \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp451
+# define WPP_ANNOTATE_Queue_cpp451 WPP_ANNOTATE_Queue_cpp451_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp451", \
+    L"{", \
+    L"status, ItemLong -- 10" , \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp451
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp458_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 32 \"%0WdfUsbTargetPipeFormatRequestForRead failed 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp458_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 32 \"%0WdfUsbTargetPipeFormatRequestForRead failed 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp458
+# define WPP_ANNOTATE_Queue_cpp458 WPP_ANNOTATE_Queue_cpp458_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"Arg, ItemLong -- 10" , \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp458
+# define WPP_ANNOTATE_Queue_cpp458 WPP_ANNOTATE_Queue_cpp458_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp458", \
+    L"{", \
+    L"status, ItemLong -- 10" , \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp458
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp463_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 33 \"%0WdfUsbTargetPipeFormatRequestForRead passed 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp463_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 33 \"%0WdfUsbTargetPipeFormatRequestForRead passed 0x%10!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp463
+# define WPP_ANNOTATE_Queue_cpp463 WPP_ANNOTATE_Queue_cpp463_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"Arg, ItemLong -- 10" , \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp463
+# define WPP_ANNOTATE_Queue_cpp463 WPP_ANNOTATE_Queue_cpp463_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp463", \
+    L"{", \
+    L"status, ItemLong -- 10" , \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp463
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp478_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 34 \"%0WdfRequestSend failed\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp478_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 34 \"%0WdfRequestSend failed\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp478
+# define WPP_ANNOTATE_Queue_cpp478 WPP_ANNOTATE_Queue_cpp478_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp478
+# define WPP_ANNOTATE_Queue_cpp478 WPP_ANNOTATE_Queue_cpp478_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp478", \
+    L"{", \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp478
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp489_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 35 \"%0<-- USBUMDF2Driver2EvtIoRead FAILED\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp489_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 35 \"%0<-- USBUMDF2Driver2EvtIoRead FAILED\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp489
+# define WPP_ANNOTATE_Queue_cpp489 WPP_ANNOTATE_Queue_cpp489_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp489
+# define WPP_ANNOTATE_Queue_cpp489 WPP_ANNOTATE_Queue_cpp489_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp489", \
+    L"{", \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp489
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp493_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 36 \"%0<-- USBUMDF2Driver2EvtIoRead\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp493_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 36 \"%0<-- USBUMDF2Driver2EvtIoRead\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp493
+# define WPP_ANNOTATE_Queue_cpp493 WPP_ANNOTATE_Queue_cpp493_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp493
+# define WPP_ANNOTATE_Queue_cpp493 WPP_ANNOTATE_Queue_cpp493_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp493", \
+    L"{", \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp493
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp515_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 37 \"%0EvtRequestReadCompletionRouting start: \" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp515_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 37 \"%0EvtRequestReadCompletionRouting start: \" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp515
+# define WPP_ANNOTATE_Queue_cpp515 WPP_ANNOTATE_Queue_cpp515_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp515
+# define WPP_ANNOTATE_Queue_cpp515 WPP_ANNOTATE_Queue_cpp515_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp515", \
+    L"{", \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp515
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp525_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 38 \"%0CompletionParams->IoStatus.Status \" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp525_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 38 \"%0CompletionParams->IoStatus.Status \" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp525
+# define WPP_ANNOTATE_Queue_cpp525 WPP_ANNOTATE_Queue_cpp525_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp525
+# define WPP_ANNOTATE_Queue_cpp525 WPP_ANNOTATE_Queue_cpp525_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp525", \
+    L"{", \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp525
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp527_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 39 \"%0CompletionParams->Parameters.Usb.Completion \" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp527_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 39 \"%0CompletionParams->Parameters.Usb.Completion \" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp527
+# define WPP_ANNOTATE_Queue_cpp527 WPP_ANNOTATE_Queue_cpp527_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp527
+# define WPP_ANNOTATE_Queue_cpp527 WPP_ANNOTATE_Queue_cpp527_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp527", \
+    L"{", \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp527
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp531_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 40 \"%0usbCompletionParams->Parameters.PipeRead.Length %10!I64d!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp531_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 40 \"%0usbCompletionParams->Parameters.PipeRead.Length %10!I64d!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp531
+# define WPP_ANNOTATE_Queue_cpp531 WPP_ANNOTATE_Queue_cpp531_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"Arg, ItemLongLong -- 10" , \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp531
+# define WPP_ANNOTATE_Queue_cpp531 WPP_ANNOTATE_Queue_cpp531_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp531", \
+    L"{", \
+    L"(INT64)bytesRead, ItemLongLong -- 10" , \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp531
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp533_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 41 \"%0Number of bytes read: %10!I64d!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp533_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 41 \"%0Number of bytes read: %10!I64d!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp533
+# define WPP_ANNOTATE_Queue_cpp533 WPP_ANNOTATE_Queue_cpp533_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"Arg, ItemLongLong -- 10" , \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp533
+# define WPP_ANNOTATE_Queue_cpp533 WPP_ANNOTATE_Queue_cpp533_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp533", \
+    L"{", \
+    L"(INT64)bytesRead, ItemLongLong -- 10" , \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp533
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp537_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 42 \"%0Read failed - request status 0x%10!x! UsbdStatus 0x%11!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp537_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 42 \"%0Read failed - request status 0x%10!x! UsbdStatus 0x%11!x!\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp537
+# define WPP_ANNOTATE_Queue_cpp537 WPP_ANNOTATE_Queue_cpp537_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"Arg, ItemLong -- 10" , \
+    L"Arg, ItemLong -- 11" , \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp537
+# define WPP_ANNOTATE_Queue_cpp537 WPP_ANNOTATE_Queue_cpp537_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp537", \
+    L"{", \
+    L"status, ItemLong -- 10" , \
+    L"usbCompletionParams->UsbdStatus, ItemLong -- 11" , \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp537
+
+#ifdef WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp549_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    WPP_GUID_WTEXT WPP_USER_MSG_GUID L"USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 43 \"%0Exit EvtRequestReadCompletionRoutine\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#else // WPP_USER_MSG_GUID
+# define WPP_ANNOTATE_Queue_cpp549_FINAL(P, File, Name, ...) __annotation( \
+    L ## P, \
+    L"074c27e3-fa06-3469-9887-708bc5677909 USB UMDF 2 Driver2 // SRC=" _WPPW(File) \
+    L" MJ= MN=", \
+    L"#typev " _WPPW(Name) \
+    L" 43 \"%0Exit EvtRequestReadCompletionRoutine\" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_QUEUE" \
+    WPP_FUNC_NAME, \
+    __VA_ARGS__)
+#endif // WPP_USER_MSG_GUID
+
+#ifdef WPP_PUBLIC_ANNOT_Queue_cpp549
+# define WPP_ANNOTATE_Queue_cpp549 WPP_ANNOTATE_Queue_cpp549_FINAL( \
+    "TMF:", \
+    "Unknown_cxx00", \
+    "Unknown_cxx00", \
+    L"{", \
+    L"}", \
+    L"PUBLIC_TMF:")
+# ifndef WPP_PUBLIC_TMC
+#  define WPP_PUBLIC_TMC // Adds "PUBLIC_TMF:" to the control guid annotation
+# endif
+#else // WPP_PUBLIC_ANNOT_Queue_cpp549
+# define WPP_ANNOTATE_Queue_cpp549 WPP_ANNOTATE_Queue_cpp549_FINAL( \
+    "TMF:", \
+    "Queue.cpp", \
+    "Queue_cpp549", \
+    L"{", \
+    L"}")
+#endif // WPP_PUBLIC_ANNOT_Queue_cpp549
 
 # define WPP_ANNOTATE(x) WPP_ANNOTATE_ ## x,
 
@@ -642,8 +2017,8 @@ WPP_LOCAL_MSG_GUID(WPP_USER_MSG_GUID);
 
 #else // WPP_USER_MSG_GUID
 
-#define WPP_LOCAL_TraceGuids WPP_66cf0443fe09333df837a53466f6f0bf_Traceguids
-extern const __declspec(selectany) GUID WPP_LOCAL_TraceGuids[] = { {0x66cf0443,0xfe09,0x333d,{0xf8,0x37,0xa5,0x34,0x66,0xf6,0xf0,0xbf}}, };
+#define WPP_LOCAL_TraceGuids WPP_074c27e3fa0634699887708bc5677909_Traceguids
+extern const __declspec(selectany) GUID WPP_LOCAL_TraceGuids[] = { {0x074c27e3,0xfa06,0x3469,{0x98,0x87,0x70,0x8b,0xc5,0x67,0x79,0x09}}, };
 
 #endif // WPP_USER_MSG_GUID
 
@@ -793,6 +2168,252 @@ struct WppPointerToUshort
 #define WPP_ENABLE_FLAG_BIT(flag) (WPP_CB[((flag) >> 16)].Control).Flags[( (0xFFFF & ((flag)-1) ) / 32)] & (1 << ( ((flag)-1) & 31 ))
 #endif
 
+#ifndef WPP_SF__def
+# define WPP_SF__def
+WPP_INLINE void WPP_SF_(WPP_LOGGER_ARG unsigned short id, LPCGUID TraceGuid)
+{ WPP_TRACE(WPP_GET_LOGGER, WPP_TRACE_OPTIONS, (LPGUID)TraceGuid, id,  (void*)0); }
+#endif // WPP_SF__def
+
+#if ENABLE_WPP_RECORDER
+
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+
+//
+// Generate the WPP_RECORDER_AND_TRACE_SF_ function
+//
+#ifndef WPP_RECORDER_AND_TRACE_SF__def
+#define WPP_RECORDER_AND_TRACE_SF__def
+WPP_INLINE
+VOID
+WPP_RECORDER_AND_TRACE_SF_(
+    WPP_LOGGER_ARG
+    BOOLEAN  wppEnabled,
+    BOOLEAN  recorderEnabled,
+    PVOID    AutoLogContext,
+    UCHAR    level,
+    ULONG    flags,
+    USHORT   id,
+    LPCGUID  traceGuid
+    
+    )
+{
+    if (wppEnabled)
+    {
+        WPP_TRACE( WPP_GET_LOGGER,
+                   WPP_TRACE_OPTIONS,
+                   (LPGUID)traceGuid,
+                   id,
+                    (void*)0);
+    }
+
+    if (recorderEnabled)
+    {
+        WPP_RECORDER( AutoLogContext, level, flags, (LPGUID) traceGuid, id,  (void*)0 );
+    }
+}
+#endif // WPP_RECORDER_AND_TRACE_SF__def
+
+#else  // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+
+//
+// Generate the WPP_RECORDER_SP_ function
+//
+#ifndef WPP_RECORDER_SF__def
+#define WPP_RECORDER_SF__def
+WPP_INLINE
+VOID
+WPP_RECORDER_SF_(
+    PVOID    AutoLogContext,
+    UCHAR    level,
+    ULONG    flags,
+    USHORT   id,
+    LPCGUID  traceGuid
+    
+    )
+{
+    if (WPP_ENABLE_FLAG_BIT(flags) &&
+        (WPP_CONTROL(flags).Level >= level))
+    {
+        WPP_TRACE(
+            WPP_CONTROL(flags).Logger,
+            WPP_TRACE_OPTIONS,
+            (LPGUID)traceGuid,
+            id,
+             (void*)0);
+    }
+
+    WPP_RECORDER(AutoLogContext, level, flags, (LPGUID) traceGuid, id,  (void*)0);
+}
+#endif // WPP_RECORDER_SF__def
+
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+
+#endif // ENABLE_WPP_RECORDER
+
+#ifndef WPP_SF_D_def
+# define WPP_SF_D_def
+WPP_INLINE void WPP_SF_D(WPP_LOGGER_ARG unsigned short id, LPCGUID TraceGuid, unsigned int _a1)
+{ WPP_TRACE(WPP_GET_LOGGER, WPP_TRACE_OPTIONS, (LPGUID)TraceGuid, id, WPP_LOGTYPEVAL(unsigned int, _a1)  (void*)0); }
+#endif // WPP_SF_D_def
+
+#if ENABLE_WPP_RECORDER
+
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+
+//
+// Generate the WPP_RECORDER_AND_TRACE_SF_D function
+//
+#ifndef WPP_RECORDER_AND_TRACE_SF_D_def
+#define WPP_RECORDER_AND_TRACE_SF_D_def
+WPP_INLINE
+VOID
+WPP_RECORDER_AND_TRACE_SF_D(
+    WPP_LOGGER_ARG
+    BOOLEAN  wppEnabled,
+    BOOLEAN  recorderEnabled,
+    PVOID    AutoLogContext,
+    UCHAR    level,
+    ULONG    flags,
+    USHORT   id,
+    LPCGUID  traceGuid
+    , unsigned int _a1
+    )
+{
+    if (wppEnabled)
+    {
+        WPP_TRACE( WPP_GET_LOGGER,
+                   WPP_TRACE_OPTIONS,
+                   (LPGUID)traceGuid,
+                   id,
+                   WPP_LOGTYPEVAL(unsigned int, _a1)  (void*)0);
+    }
+
+    if (recorderEnabled)
+    {
+        WPP_RECORDER( AutoLogContext, level, flags, (LPGUID) traceGuid, id, WPP_LOGTYPEVAL(unsigned int, _a1)  (void*)0 );
+    }
+}
+#endif // WPP_RECORDER_AND_TRACE_SF_D_def
+
+#else  // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+
+//
+// Generate the WPP_RECORDER_SP_D function
+//
+#ifndef WPP_RECORDER_SF_D_def
+#define WPP_RECORDER_SF_D_def
+WPP_INLINE
+VOID
+WPP_RECORDER_SF_D(
+    PVOID    AutoLogContext,
+    UCHAR    level,
+    ULONG    flags,
+    USHORT   id,
+    LPCGUID  traceGuid
+    , unsigned int _a1
+    )
+{
+    if (WPP_ENABLE_FLAG_BIT(flags) &&
+        (WPP_CONTROL(flags).Level >= level))
+    {
+        WPP_TRACE(
+            WPP_CONTROL(flags).Logger,
+            WPP_TRACE_OPTIONS,
+            (LPGUID)traceGuid,
+            id,
+            WPP_LOGTYPEVAL(unsigned int, _a1)  (void*)0);
+    }
+
+    WPP_RECORDER(AutoLogContext, level, flags, (LPGUID) traceGuid, id, WPP_LOGTYPEVAL(unsigned int, _a1)  (void*)0);
+}
+#endif // WPP_RECORDER_SF_D_def
+
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+
+#endif // ENABLE_WPP_RECORDER
+
+#ifndef WPP_SF_DD_def
+# define WPP_SF_DD_def
+WPP_INLINE void WPP_SF_DD(WPP_LOGGER_ARG unsigned short id, LPCGUID TraceGuid, unsigned int _a1, unsigned int _a2)
+{ WPP_TRACE(WPP_GET_LOGGER, WPP_TRACE_OPTIONS, (LPGUID)TraceGuid, id, WPP_LOGTYPEVAL(unsigned int, _a1) WPP_LOGTYPEVAL(unsigned int, _a2)  (void*)0); }
+#endif // WPP_SF_DD_def
+
+#if ENABLE_WPP_RECORDER
+
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+
+//
+// Generate the WPP_RECORDER_AND_TRACE_SF_DD function
+//
+#ifndef WPP_RECORDER_AND_TRACE_SF_DD_def
+#define WPP_RECORDER_AND_TRACE_SF_DD_def
+WPP_INLINE
+VOID
+WPP_RECORDER_AND_TRACE_SF_DD(
+    WPP_LOGGER_ARG
+    BOOLEAN  wppEnabled,
+    BOOLEAN  recorderEnabled,
+    PVOID    AutoLogContext,
+    UCHAR    level,
+    ULONG    flags,
+    USHORT   id,
+    LPCGUID  traceGuid
+    , unsigned int _a1, unsigned int _a2
+    )
+{
+    if (wppEnabled)
+    {
+        WPP_TRACE( WPP_GET_LOGGER,
+                   WPP_TRACE_OPTIONS,
+                   (LPGUID)traceGuid,
+                   id,
+                   WPP_LOGTYPEVAL(unsigned int, _a1) WPP_LOGTYPEVAL(unsigned int, _a2)  (void*)0);
+    }
+
+    if (recorderEnabled)
+    {
+        WPP_RECORDER( AutoLogContext, level, flags, (LPGUID) traceGuid, id, WPP_LOGTYPEVAL(unsigned int, _a1) WPP_LOGTYPEVAL(unsigned int, _a2)  (void*)0 );
+    }
+}
+#endif // WPP_RECORDER_AND_TRACE_SF_DD_def
+
+#else  // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+
+//
+// Generate the WPP_RECORDER_SP_DD function
+//
+#ifndef WPP_RECORDER_SF_DD_def
+#define WPP_RECORDER_SF_DD_def
+WPP_INLINE
+VOID
+WPP_RECORDER_SF_DD(
+    PVOID    AutoLogContext,
+    UCHAR    level,
+    ULONG    flags,
+    USHORT   id,
+    LPCGUID  traceGuid
+    , unsigned int _a1, unsigned int _a2
+    )
+{
+    if (WPP_ENABLE_FLAG_BIT(flags) &&
+        (WPP_CONTROL(flags).Level >= level))
+    {
+        WPP_TRACE(
+            WPP_CONTROL(flags).Logger,
+            WPP_TRACE_OPTIONS,
+            (LPGUID)traceGuid,
+            id,
+            WPP_LOGTYPEVAL(unsigned int, _a1) WPP_LOGTYPEVAL(unsigned int, _a2)  (void*)0);
+    }
+
+    WPP_RECORDER(AutoLogContext, level, flags, (LPGUID) traceGuid, id, WPP_LOGTYPEVAL(unsigned int, _a1) WPP_LOGTYPEVAL(unsigned int, _a2)  (void*)0);
+}
+#endif // WPP_RECORDER_SF_DD_def
+
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+
+#endif // ENABLE_WPP_RECORDER
+
 #ifndef WPP_SF_d_def
 # define WPP_SF_d_def
 WPP_INLINE void WPP_SF_d(WPP_LOGGER_ARG unsigned short id, LPCGUID TraceGuid, signed int _a1)
@@ -870,6 +2491,88 @@ WPP_RECORDER_SF_d(
     WPP_RECORDER(AutoLogContext, level, flags, (LPGUID) traceGuid, id, WPP_LOGTYPEVAL(signed int, _a1)  (void*)0);
 }
 #endif // WPP_RECORDER_SF_d_def
+
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+
+#endif // ENABLE_WPP_RECORDER
+
+#ifndef WPP_SF_i_def
+# define WPP_SF_i_def
+WPP_INLINE void WPP_SF_i(WPP_LOGGER_ARG unsigned short id, LPCGUID TraceGuid, signed __int64 _a1)
+{ WPP_TRACE(WPP_GET_LOGGER, WPP_TRACE_OPTIONS, (LPGUID)TraceGuid, id, WPP_LOGTYPEVAL(signed __int64, _a1)  (void*)0); }
+#endif // WPP_SF_i_def
+
+#if ENABLE_WPP_RECORDER
+
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+
+//
+// Generate the WPP_RECORDER_AND_TRACE_SF_i function
+//
+#ifndef WPP_RECORDER_AND_TRACE_SF_i_def
+#define WPP_RECORDER_AND_TRACE_SF_i_def
+WPP_INLINE
+VOID
+WPP_RECORDER_AND_TRACE_SF_i(
+    WPP_LOGGER_ARG
+    BOOLEAN  wppEnabled,
+    BOOLEAN  recorderEnabled,
+    PVOID    AutoLogContext,
+    UCHAR    level,
+    ULONG    flags,
+    USHORT   id,
+    LPCGUID  traceGuid
+    , signed __int64 _a1
+    )
+{
+    if (wppEnabled)
+    {
+        WPP_TRACE( WPP_GET_LOGGER,
+                   WPP_TRACE_OPTIONS,
+                   (LPGUID)traceGuid,
+                   id,
+                   WPP_LOGTYPEVAL(signed __int64, _a1)  (void*)0);
+    }
+
+    if (recorderEnabled)
+    {
+        WPP_RECORDER( AutoLogContext, level, flags, (LPGUID) traceGuid, id, WPP_LOGTYPEVAL(signed __int64, _a1)  (void*)0 );
+    }
+}
+#endif // WPP_RECORDER_AND_TRACE_SF_i_def
+
+#else  // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+
+//
+// Generate the WPP_RECORDER_SP_i function
+//
+#ifndef WPP_RECORDER_SF_i_def
+#define WPP_RECORDER_SF_i_def
+WPP_INLINE
+VOID
+WPP_RECORDER_SF_i(
+    PVOID    AutoLogContext,
+    UCHAR    level,
+    ULONG    flags,
+    USHORT   id,
+    LPCGUID  traceGuid
+    , signed __int64 _a1
+    )
+{
+    if (WPP_ENABLE_FLAG_BIT(flags) &&
+        (WPP_CONTROL(flags).Level >= level))
+    {
+        WPP_TRACE(
+            WPP_CONTROL(flags).Logger,
+            WPP_TRACE_OPTIONS,
+            (LPGUID)traceGuid,
+            id,
+            WPP_LOGTYPEVAL(signed __int64, _a1)  (void*)0);
+    }
+
+    WPP_RECORDER(AutoLogContext, level, flags, (LPGUID) traceGuid, id, WPP_LOGTYPEVAL(signed __int64, _a1)  (void*)0);
+}
+#endif // WPP_RECORDER_SF_i_def
 
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 
@@ -1058,7 +2761,7 @@ WPP_RECORDER_SF_qqddd(
 #define WPP_INVOKE_WPP_DEBUG(MsgArgs) (void)0
 #endif // WPP_DEBUG
 
-// WPP_CALL_Queue_c71
+// WPP_CALL_Queue_cpp78
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -1067,11 +2770,11 @@ WPP_RECORDER_SF_qqddd(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Queue_c71(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Queue_cpp78(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Queue_c71) 0; \
+        WPP_ANNOTATE(Queue_cpp78) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -1087,10 +2790,10 @@ WPP_RECORDER_SF_qqddd(
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Queue_c71(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Queue_cpp78(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Queue_c71) \
+    WPP_ANNOTATE(Queue_cpp78) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -1104,10 +2807,10 @@ WPP_RECORDER_SF_qqddd(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Queue_c71(LEVEL, FLAGS, MSG, a10) \
+#define WPP_CALL_Queue_cpp78(LEVEL, FLAGS, MSG, a10) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Queue_c71) \
+    WPP_ANNOTATE(Queue_cpp78) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
@@ -1121,7 +2824,7 @@ WPP_RECORDER_SF_qqddd(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Queue_c111
+// WPP_CALL_Queue_cpp97
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -1130,11 +2833,389 @@ WPP_RECORDER_SF_qqddd(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Queue_c111(LEVEL, FLAGS, MSG, a10, a11, a12, a13, a14) \
+#define WPP_CALL_Queue_cpp97(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp97) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG, a10)); \
+            WPP_RECORDER_AND_TRACE_SF_D( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     11, \
+                     WPP_LOCAL_TraceGuids+0, a10);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp97(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp97) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_RECORDER_SF_D( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                11, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp97(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp97) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_SF_D( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                11, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp109
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp109(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp109) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG, a10)); \
+            WPP_RECORDER_AND_TRACE_SF_D( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     12, \
+                     WPP_LOCAL_TraceGuids+0, a10);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp109(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp109) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_RECORDER_SF_D( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                12, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp109(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp109) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_SF_D( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                12, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp128
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp128(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp128) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG, a10)); \
+            WPP_RECORDER_AND_TRACE_SF_D( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     13, \
+                     WPP_LOCAL_TraceGuids+0, a10);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp128(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp128) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_RECORDER_SF_D( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                13, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp128(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp128) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_SF_D( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                13, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp140
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp140(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp140) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG, a10)); \
+            WPP_RECORDER_AND_TRACE_SF_D( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     14, \
+                     WPP_LOCAL_TraceGuids+0, a10);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp140(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp140) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_RECORDER_SF_D( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                14, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp140(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp140) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_SF_D( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                14, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp151
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp151(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp151) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG, a10)); \
+            WPP_RECORDER_AND_TRACE_SF_D( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     15, \
+                     WPP_LOCAL_TraceGuids+0, a10);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp151(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp151) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_RECORDER_SF_D( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                15, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp151(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp151) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_SF_D( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                15, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp160
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp160(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp160) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG, a10)); \
+            WPP_RECORDER_AND_TRACE_SF_d( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     16, \
+                     WPP_LOCAL_TraceGuids+0, a10);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp160(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp160) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_RECORDER_SF_d( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                16, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp160(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp160) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_SF_d( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                16, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp198
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp198(LEVEL, FLAGS, MSG, a10, a11, a12, a13, a14) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10, a11, a12, a13, a14) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Queue_c111) 0; \
+        WPP_ANNOTATE(Queue_cpp198) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -1143,23 +3224,23 @@ WPP_RECORDER_SF_qqddd(
                      WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
                      wppEnabled, recorderEnabled, \
                      WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
-                     11, \
+                     17, \
                      WPP_LOCAL_TraceGuids+0, a10, a11, a12, a13, a14);\
         } \
     } \
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Queue_c111(LEVEL, FLAGS, MSG, a10, a11, a12, a13, a14) \
+#define WPP_CALL_Queue_cpp198(LEVEL, FLAGS, MSG, a10, a11, a12, a13, a14) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10, a11, a12, a13, a14) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Queue_c111) \
+    WPP_ANNOTATE(Queue_cpp198) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10, a11, a12, a13, a14)), \
             WPP_RECORDER_SF_qqddd( \
                 WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
-                11, \
+                17, \
                 WPP_LOCAL_TraceGuids+0, a10, a11, a12, a13, a14), \
             1 \
         :   0 \
@@ -1167,16 +3248,16 @@ WPP_RECORDER_SF_qqddd(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Queue_c111(LEVEL, FLAGS, MSG, a10, a11, a12, a13, a14) \
+#define WPP_CALL_Queue_cpp198(LEVEL, FLAGS, MSG, a10, a11, a12, a13, a14) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10, a11, a12, a13, a14) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Queue_c111) \
+    WPP_ANNOTATE(Queue_cpp198) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10, a11, a12, a13, a14)), \
             WPP_SF_qqddd( \
                 WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
-                11, \
+                17, \
                 WPP_LOCAL_TraceGuids+0, a10, a11, a12, a13, a14), \
             1 \
         :   0 \
@@ -1184,7 +3265,7 @@ WPP_RECORDER_SF_qqddd(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_RECORDER
 
-// WPP_CALL_Queue_c150
+// WPP_CALL_Queue_cpp237
 #ifndef WPP_LEVEL_FLAGS_PRE
 #  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
 #endif
@@ -1193,11 +3274,11 @@ WPP_RECORDER_SF_qqddd(
 #endif
 #if ENABLE_WPP_RECORDER
 #if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Queue_c150(LEVEL, FLAGS, MSG, a10, a11, a12) \
+#define WPP_CALL_Queue_cpp237(LEVEL, FLAGS, MSG, a10, a11, a12) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10, a11, a12) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
     do {\
-        WPP_ANNOTATE(Queue_c150) 0; \
+        WPP_ANNOTATE(Queue_cpp237) 0; \
         BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
         BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
         if (wppEnabled || recorderEnabled) { \
@@ -1206,23 +3287,23 @@ WPP_RECORDER_SF_qqddd(
                      WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
                      wppEnabled, recorderEnabled, \
                      WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
-                     12, \
+                     18, \
                      WPP_LOCAL_TraceGuids+0, a10, a11, a12);\
         } \
     } \
     while(0) \
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
-#define WPP_CALL_Queue_c150(LEVEL, FLAGS, MSG, a10, a11, a12) \
+#define WPP_CALL_Queue_cpp237(LEVEL, FLAGS, MSG, a10, a11, a12) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10, a11, a12) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Queue_c150) \
+    WPP_ANNOTATE(Queue_cpp237) \
     (( \
         WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10, a11, a12)), \
             WPP_RECORDER_SF_qqd( \
                 WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
-                12, \
+                18, \
                 WPP_LOCAL_TraceGuids+0, a10, a11, a12), \
             1 \
         :   0 \
@@ -1230,17 +3311,1592 @@ WPP_RECORDER_SF_qqddd(
     WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
 #endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
 #else  // ENABLE_WPP_RECORDER
-#define WPP_CALL_Queue_c150(LEVEL, FLAGS, MSG, a10, a11, a12) \
+#define WPP_CALL_Queue_cpp237(LEVEL, FLAGS, MSG, a10, a11, a12) \
     WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10, a11, a12) \
     WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
-    WPP_ANNOTATE(Queue_c150) \
+    WPP_ANNOTATE(Queue_cpp237) \
     (( \
         WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
         ?   WPP_INVOKE_WPP_DEBUG((MSG, a10, a11, a12)), \
             WPP_SF_qqd( \
                 WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
-                12, \
+                18, \
                 WPP_LOCAL_TraceGuids+0, a10, a11, a12), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp288
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp288(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp288) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG, a10)); \
+            WPP_RECORDER_AND_TRACE_SF_d( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     19, \
+                     WPP_LOCAL_TraceGuids+0, a10);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp288(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp288) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_RECORDER_SF_d( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                19, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp288(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp288) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_SF_d( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                19, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp293
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp293(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp293) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG, a10)); \
+            WPP_RECORDER_AND_TRACE_SF_d( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     20, \
+                     WPP_LOCAL_TraceGuids+0, a10);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp293(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp293) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_RECORDER_SF_d( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                20, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp293(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp293) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_SF_d( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                20, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp307
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp307(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp307) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG)); \
+            WPP_RECORDER_AND_TRACE_SF_( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     21, \
+                     WPP_LOCAL_TraceGuids+0);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp307(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp307) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_RECORDER_SF_( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                21, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp307(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp307) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_SF_( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                21, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp320
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp320(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp320) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG, a10)); \
+            WPP_RECORDER_AND_TRACE_SF_D( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     22, \
+                     WPP_LOCAL_TraceGuids+0, a10);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp320(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp320) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_RECORDER_SF_D( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                22, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp320(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp320) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_SF_D( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                22, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp344
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp344(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp344) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG)); \
+            WPP_RECORDER_AND_TRACE_SF_( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     23, \
+                     WPP_LOCAL_TraceGuids+0);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp344(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp344) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_RECORDER_SF_( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                23, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp344(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp344) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_SF_( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                23, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp359
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp359(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp359) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG)); \
+            WPP_RECORDER_AND_TRACE_SF_( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     24, \
+                     WPP_LOCAL_TraceGuids+0);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp359(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp359) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_RECORDER_SF_( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                24, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp359(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp359) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_SF_( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                24, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp386
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp386(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp386) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG, a10)); \
+            WPP_RECORDER_AND_TRACE_SF_i( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     25, \
+                     WPP_LOCAL_TraceGuids+0, a10);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp386(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp386) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_RECORDER_SF_i( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                25, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp386(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp386) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_SF_i( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                25, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp391
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp391(LEVEL, FLAGS, MSG, a10, a11) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10, a11) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp391) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG, a10, a11)); \
+            WPP_RECORDER_AND_TRACE_SF_DD( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     26, \
+                     WPP_LOCAL_TraceGuids+0, a10, a11);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp391(LEVEL, FLAGS, MSG, a10, a11) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10, a11) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp391) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10, a11)), \
+            WPP_RECORDER_SF_DD( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                26, \
+                WPP_LOCAL_TraceGuids+0, a10, a11), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp391(LEVEL, FLAGS, MSG, a10, a11) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10, a11) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp391) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10, a11)), \
+            WPP_SF_DD( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                26, \
+                WPP_LOCAL_TraceGuids+0, a10, a11), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp402
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp402(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp402) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG)); \
+            WPP_RECORDER_AND_TRACE_SF_( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     27, \
+                     WPP_LOCAL_TraceGuids+0);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp402(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp402) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_RECORDER_SF_( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                27, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp402(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp402) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_SF_( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                27, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp423
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp423(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp423) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG)); \
+            WPP_RECORDER_AND_TRACE_SF_( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     28, \
+                     WPP_LOCAL_TraceGuids+0);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp423(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp423) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_RECORDER_SF_( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                28, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp423(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp423) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_SF_( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                28, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp429
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp429(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp429) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG, a10)); \
+            WPP_RECORDER_AND_TRACE_SF_d( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     29, \
+                     WPP_LOCAL_TraceGuids+0, a10);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp429(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp429) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_RECORDER_SF_d( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                29, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp429(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp429) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_SF_d( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                29, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp445
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp445(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp445) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG, a10)); \
+            WPP_RECORDER_AND_TRACE_SF_d( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     30, \
+                     WPP_LOCAL_TraceGuids+0, a10);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp445(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp445) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_RECORDER_SF_d( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                30, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp445(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp445) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_SF_d( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                30, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp451
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp451(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp451) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG, a10)); \
+            WPP_RECORDER_AND_TRACE_SF_D( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     31, \
+                     WPP_LOCAL_TraceGuids+0, a10);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp451(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp451) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_RECORDER_SF_D( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                31, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp451(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp451) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_SF_D( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                31, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp458
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp458(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp458) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG, a10)); \
+            WPP_RECORDER_AND_TRACE_SF_D( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     32, \
+                     WPP_LOCAL_TraceGuids+0, a10);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp458(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp458) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_RECORDER_SF_D( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                32, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp458(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp458) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_SF_D( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                32, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp463
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp463(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp463) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG, a10)); \
+            WPP_RECORDER_AND_TRACE_SF_D( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     33, \
+                     WPP_LOCAL_TraceGuids+0, a10);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp463(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp463) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_RECORDER_SF_D( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                33, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp463(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp463) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_SF_D( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                33, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp478
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp478(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp478) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG)); \
+            WPP_RECORDER_AND_TRACE_SF_( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     34, \
+                     WPP_LOCAL_TraceGuids+0);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp478(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp478) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_RECORDER_SF_( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                34, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp478(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp478) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_SF_( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                34, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp489
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp489(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp489) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG)); \
+            WPP_RECORDER_AND_TRACE_SF_( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     35, \
+                     WPP_LOCAL_TraceGuids+0);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp489(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp489) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_RECORDER_SF_( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                35, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp489(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp489) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_SF_( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                35, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp493
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp493(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp493) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG)); \
+            WPP_RECORDER_AND_TRACE_SF_( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     36, \
+                     WPP_LOCAL_TraceGuids+0);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp493(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp493) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_RECORDER_SF_( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                36, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp493(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp493) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_SF_( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                36, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp515
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp515(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp515) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG)); \
+            WPP_RECORDER_AND_TRACE_SF_( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     37, \
+                     WPP_LOCAL_TraceGuids+0);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp515(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp515) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_RECORDER_SF_( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                37, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp515(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp515) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_SF_( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                37, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp525
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp525(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp525) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG)); \
+            WPP_RECORDER_AND_TRACE_SF_( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     38, \
+                     WPP_LOCAL_TraceGuids+0);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp525(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp525) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_RECORDER_SF_( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                38, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp525(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp525) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_SF_( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                38, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp527
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp527(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp527) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG)); \
+            WPP_RECORDER_AND_TRACE_SF_( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     39, \
+                     WPP_LOCAL_TraceGuids+0);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp527(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp527) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_RECORDER_SF_( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                39, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp527(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp527) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_SF_( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                39, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp531
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp531(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp531) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG, a10)); \
+            WPP_RECORDER_AND_TRACE_SF_i( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     40, \
+                     WPP_LOCAL_TraceGuids+0, a10);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp531(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp531) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_RECORDER_SF_i( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                40, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp531(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp531) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_SF_i( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                40, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp533
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp533(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp533) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG, a10)); \
+            WPP_RECORDER_AND_TRACE_SF_i( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     41, \
+                     WPP_LOCAL_TraceGuids+0, a10);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp533(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp533) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_RECORDER_SF_i( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                41, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp533(LEVEL, FLAGS, MSG, a10) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp533) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10)), \
+            WPP_SF_i( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                41, \
+                WPP_LOCAL_TraceGuids+0, a10), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp537
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp537(LEVEL, FLAGS, MSG, a10, a11) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10, a11) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp537) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG, a10, a11)); \
+            WPP_RECORDER_AND_TRACE_SF_DD( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     42, \
+                     WPP_LOCAL_TraceGuids+0, a10, a11);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp537(LEVEL, FLAGS, MSG, a10, a11) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10, a11) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp537) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10, a11)), \
+            WPP_RECORDER_SF_DD( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                42, \
+                WPP_LOCAL_TraceGuids+0, a10, a11), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp537(LEVEL, FLAGS, MSG, a10, a11) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG, a10, a11) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp537) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG, a10, a11)), \
+            WPP_SF_DD( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                42, \
+                WPP_LOCAL_TraceGuids+0, a10, a11), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_RECORDER
+
+// WPP_CALL_Queue_cpp549
+#ifndef WPP_LEVEL_FLAGS_PRE
+#  define WPP_LEVEL_FLAGS_PRE(LEVEL,FLAGS)
+#endif
+#ifndef WPP_LEVEL_FLAGS_POST
+#  define WPP_LEVEL_FLAGS_POST(LEVEL,FLAGS)
+#endif
+#if ENABLE_WPP_RECORDER
+#if ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp549(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    do {\
+        WPP_ANNOTATE(Queue_cpp549) 0; \
+        BOOLEAN wppEnabled = WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS); \
+        BOOLEAN recorderEnabled = WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS); \
+        if (wppEnabled || recorderEnabled) { \
+            WPP_INVOKE_WPP_DEBUG((MSG)); \
+            WPP_RECORDER_AND_TRACE_SF_( \
+                     WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                     wppEnabled, recorderEnabled, \
+                     WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                     43, \
+                     WPP_LOCAL_TraceGuids+0);\
+        } \
+    } \
+    while(0) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#else // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#define WPP_CALL_Queue_cpp549(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp549) \
+    (( \
+        WPP_RECORDER_CHECK_INIT WPP_RECORDER_LEVEL_FLAGS_FILTER(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_RECORDER_SF_( \
+                WPP_RECORDER_LEVEL_FLAGS_ARGS(LEVEL, FLAGS), \
+                43, \
+                WPP_LOCAL_TraceGuids+0), \
+            1 \
+        :   0 \
+    )) \
+    WPP_LEVEL_FLAGS_POST(LEVEL, FLAGS)
+#endif // ENABLE_WPP_TRACE_FILTERING_WITH_WPP_RECORDER
+#else  // ENABLE_WPP_RECORDER
+#define WPP_CALL_Queue_cpp549(LEVEL, FLAGS, MSG) \
+    WPP_LOG_ALWAYS(WPP_EX_LEVEL_FLAGS(LEVEL, FLAGS), MSG) \
+    WPP_LEVEL_FLAGS_PRE(LEVEL, FLAGS) \
+    WPP_ANNOTATE(Queue_cpp549) \
+    (( \
+        WPP_CHECK_INIT WPP_LEVEL_FLAGS_ENABLED(LEVEL, FLAGS) \
+        ?   WPP_INVOKE_WPP_DEBUG((MSG)), \
+            WPP_SF_( \
+                WPP_LEVEL_FLAGS_LOGGER(LEVEL, FLAGS) \
+                43, \
+                WPP_LOCAL_TraceGuids+0), \
             1 \
         :   0 \
     )) \

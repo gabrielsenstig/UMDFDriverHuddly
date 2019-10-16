@@ -22,18 +22,17 @@ EXTERN_C_START
 //
 typedef struct _DEVICE_CONTEXT
 {
-    WDFUSBDEVICE UsbDevice;
+    WDFUSBDEVICE					UsbDevice;
 	WDFUSBINTERFACE                 UsbInterface;
-
 	WDFUSBPIPE                      BulkReadPipe;
-
 	WDFUSBPIPE                      BulkWritePipe;
-
-	
     ULONG PrivateDeviceData;  // just a placeholder
 	ULONG UsbDeviceTraits;
-	
-
+	//WDFQUEUE                        InterruptMsgQueue; //The queue being used
+	WDFMEMORY                       DeviceNameMemory;
+	PCWSTR                          DeviceName;
+	WDFMEMORY                       LocationMemory;
+	PCWSTR                          Location;
 } DEVICE_CONTEXT, *PDEVICE_CONTEXT;
 
 //

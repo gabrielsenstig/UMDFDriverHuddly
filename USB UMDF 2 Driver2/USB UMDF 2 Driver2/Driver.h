@@ -19,10 +19,14 @@ Environment:
 #include <usb.h>
 #include <wdfusb.h>
 #include <initguid.h>
+#include <assert.h>
 
 #include "device.h"
 #include "queue.h"
 #include "trace.h"
+
+#define TEST_BOARD_TRANSFER_BUFFER_SIZE (64*1024)
+#define EMPTY_PACKAGE (0)
 
 EXTERN_C_START
 

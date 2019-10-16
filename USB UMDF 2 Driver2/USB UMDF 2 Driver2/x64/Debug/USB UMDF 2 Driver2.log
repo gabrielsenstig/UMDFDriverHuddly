@@ -1,9 +1,9 @@
 ﻿  Building 'USB UMDF 2 Driver2' with toolset 'WindowsUserModeDriver10.0' and the 'Universal' target platform.
   Stamping x64\Debug\USBUMDF2Driver2.inf
-  Stamping [Version] section with DriverVer=09/10/2019,22.30.15.85
-  Device.c
-  Driver.c
-  Queue.c
+  Stamping [Version] section with DriverVer=10/13/2019,14.58.16.470
+  Device.cpp
+  Driver.cpp
+  Queue.cpp
   Generating Code...
      Creating library C:\Users\stig_\source\repos\USB UMDF 2 Driver2\x64\Debug\USBUMDF2Driver2.lib and object C:\Users\stig_\source\repos\USB UMDF 2 Driver2\x64\Debug\USBUMDF2Driver2.exp
   USB UMDF 2 Driver2.vcxproj -> C:\Users\stig_\source\repos\USB UMDF 2 Driver2\x64\Debug\USBUMDF2Driver2.dll
